@@ -1,4 +1,4 @@
-# Fred Video Produto
+# Plugin Wordpress - Fred Videos - Produtos e Páginas
 
 Um plugin WordPress modular para adicionar vídeos em produtos WooCommerce e páginas estáticas.
 
@@ -81,7 +81,6 @@ fred-video-produto/
 │   ├── fred-video-common.php           # Código compartilhado (CSS, JS, rendering)
 │   ├── fred-video-produtos.php         # Funcionalidade WooCommerce
 │   └── fred-video-pages.php            # Funcionalidade de páginas
-├── CLAUDE.md                           # Documentação técnica
 └── README.md                           # Este arquivo
 ```
 
@@ -170,7 +169,6 @@ Contribuições são bem-vindas! Se encontrar bugs ou tiver sugestões, sinta-se
 
 ## 📚 Recursos Adicionais
 
-- [Documentação Técnica (CLAUDE.md)](./CLAUDE.md)
 - [WordPress Plugin Development](https://developer.wordpress.org/plugins/)
 - [WooCommerce Product Hooks](https://woocommerce.com/document/hooks/)
 - [HTML5 Video Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/video)
