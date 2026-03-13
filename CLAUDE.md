@@ -171,3 +171,4 @@ fred-video-produto/
 - **Fixed positioning**: The video bubble uses fixed positioning relative to the viewport, not the content
 - **Unique IDs**: DOM elements use `type`-based suffixes to allow multiple videos on same page without conflicts
 - **CSS optimization**: Styles render only once despite multiple videos via `$fvp_styles_rendered` flag
+- **Version control**: Project is now under git control (v2.0 introduced modular architecture)
