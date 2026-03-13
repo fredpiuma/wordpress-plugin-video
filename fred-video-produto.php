@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: Fred Video
+ * Plugin Name: Fred Video Produtos e Páginas
  * Description: Plugin para adicionar vídeos aos produtos WooCommerce e páginas.
  * Author: Frederico de Castro
  * Author URI: https://www.fredericodecastro.com.br
