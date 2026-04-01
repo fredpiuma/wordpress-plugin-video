@@ -5,7 +5,7 @@
  * Description: Plugin para adicionar vídeos aos produtos WooCommerce e páginas.
  * Author: Frederico de Castro
  * Author URI: https://www.fredericodecastro.com.br
- * Version: 2.0
+ * Version: 1.3.0
  */
 
 // Carrega as funcionalidades comuns (CSS e renderização)

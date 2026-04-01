@@ -32,7 +32,7 @@ function fvp_render_video_bubble($type, $thumb_url, $video_url)
         <style>
             .fvp-video-bubble-wrapper {
                 position: fixed;
-                top: 20%;
+                bottom: 30vh;
                 left: 20px;
                 z-index: 9999;
                 transition: transform .4s ease;
@@ -151,7 +151,7 @@ function fvp_render_video_bubble($type, $thumb_url, $video_url)
 
             @media (max-width: 640px) {
                 .fvp-video-bubble-wrapper {
-                    bottom: 3vw;
+                    bottom: 30vw;
                     left: 3vw;
                     top: auto;
                 }
