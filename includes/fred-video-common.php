@@ -35,6 +35,11 @@ function fvp_render_video_bubble($type, $thumb_url, $video_url)
                 top: 20%;
                 left: 20px;
                 z-index: 9999;
+                transition: transform .4s ease;
+            }
+
+            .fvp-video-bubble-wrapper.fvp-hidden-keyboard {
+                transform: translateX(calc(-100% - 30px));
             }
 
             .fvp-video-bubble {
@@ -266,6 +271,19 @@ function fvp_render_video_bubble($type, $thumb_url, $video_url)
                     }
                 }
             });
+
+            // Detecta teclado virtual via visualViewport
+            if (window.visualViewport) {
+                const threshold = 0.75;
+                window.visualViewport.addEventListener('resize', () => {
+                    const ratio = window.visualViewport.height / window.screen.height;
+                    if (ratio < threshold) {
+                        wrapper.classList.add('fvp-hidden-keyboard');
+                    } else {
+                        wrapper.classList.remove('fvp-hidden-keyboard');
+                    }
+                });
+            }
         })();
     </script>
     <?php
